@@ -1,0 +1,23 @@
+.logo {
+   width: 256px;
+   height: 149px;
+   background-color: $bg-color-btn;
+   border-radius: 0 0 20px 20px;
+   font-family: $font-principal;
+
+   .logo-title {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 8px;
+      text-align: center;
+      padding-top: 44px;
+      color: $color-secundario;
+   }
+
+   .logo-sub-title {
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 8px;
+      color: $color-secundario;
+   }
+}

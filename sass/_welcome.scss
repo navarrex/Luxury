@@ -1,0 +1,25 @@
+.welcome {
+   position: absolute;
+   top: 342px;
+   left: 213.24px;
+
+   h1 {
+      font-size: 154px;
+      font-family: $font-principal;
+      font-weight: 700;
+      letter-spacing: 8px;
+   }
+
+   h2 {
+      font-size: 50px;
+      font-family: $font-secundaria;
+      letter-spacing: 8px;
+   }
+
+   h3 {
+      font-size: 25px;
+      font-family: $font-secundaria;
+      font-weight: 400;
+      max-width: 575px;
+   }
+}

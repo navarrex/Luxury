@@ -1,0 +1,28 @@
+.menu {
+   display: flex;
+   align-items: center;
+
+   ul {
+      display: flex;
+   }
+
+   li {
+      margin: 0 20px;
+      font-size: 25px;
+      font-family: $font-secundaria;
+
+      a {
+         color: #fff;
+         text-decoration: none;
+      }
+   }
+
+   .linea {
+      margin-top: 5px;
+      width: 100%;
+      height: 3px;
+      background-color: #fff;
+      border-radius: 5px;
+   }
+}
+
