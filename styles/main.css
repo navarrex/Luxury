@@ -112,7 +112,7 @@ h1 {
 }
 .welcome h2 {
   font-size: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "EB Garamond", serif;
   letter-spacing: 8px;
 }
 .welcome h3 {
@@ -154,6 +154,79 @@ h1 {
   left: 213px;
   max-width: 1200px;
   width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background: #14274a;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer .footer-logo {
+  max-width: 145px;
+}
+.footer .footer-logo-title {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+.footer .footer-logo-sub-title {
+  font-family: "EB Garamond", serif;
+  font-size: 9px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+.footer .logo-description {
+  font-size: 14px;
+  padding-top: 22px;
+}
+.footer .footer-link ul li {
+  display: flex;
+  height: 35px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a i {
+  padding-right: 20px;
+}
+.footer .footer-social ul li {
+  display: flex;
+  height: 35px;
+}
+.footer .footer-subcription {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  flex-direction: column;
+}
+.footer .footer-subcription input {
+  height: 40px;
+  width: 278px;
+  border-radius: 5px;
+  background: #14274a;
+  padding-left: 15px;
+  border: 2px solid #E0B973;
+  color: #fff;
+}
+.footer .footer-subcription input::placeholder {
+  color: #fff;
+}
+.footer .footer-subcription button {
+  height: 40px;
+  width: 60px;
+  background-color: #e0b973;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  border: none;
+}
+.footer .footer-subcription .email {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
