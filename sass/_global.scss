@@ -1,17 +1,19 @@
 * {
-   box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-h1, h2, h3 {
-   color: $color-principal;
+h1,
+h2,
+h3 {
+	color: $color-principal;
 }
 
 h1 {
-   font-size: 154px;
+	font-size: 154px;
 }
 
 .wraper {
-   max-width: 1480px;
-   width: 100%;
-   margin: auto;
+	/*max-width: 1480px;*/
+	width: 100%;
+	margin: auto;
 }
